@@ -1,0 +1,65 @@
+<style>
+    ul{
+        position:sticky;
+        top:0;
+        width:100%;
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    li{
+        float: left;
+        width:25%;
+    }
+    li a{
+        display: block;
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 20px 20px;
+        
+    }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.flex-container > .nav-link{
+    width: 1000px;
+    margin: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    text-emphasis: none;
+    color: black;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover,a:active{
+    color:blue;
+}
+#header{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+</style>
+<div class="flex-container">
+    <ul>
+        
+        <li><div class="nav-link">
+            <a href="About.html">About</a>
+        </div></li>
+        <li><div class="nav-link">
+            <a href="Contact.html">Contact</a>
+        </div></li>
+        <li><div class="nav-link">
+            <a href="Projects.html">Projects</a>
+        </div></li>
+        <li><div class="nav-link">
+            <a href="Technologies.html">Technologies</a>
+        </div></li>
+    </ul>
+</div class="flex-container">
+<h1 id="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet posuere bibendum. Vestibulum ornare, quam et malesuada 
+    mattis, turpis ex venenatis tortor, vel posuere lorem massa nec felis. Nullam at.</h1>
